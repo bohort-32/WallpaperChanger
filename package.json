@@ -1,0 +1,21 @@
+{
+  "name": "WallpaperChanger",
+  "version": "1.0.0",
+  "description": "Script pour modifier automatiquement le fond d ecran",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "pkg": {
+    "scripts": "scripts/**/*.js"
+  },
+  "bin": {
+    "your-executable": "index.js"
+  },
+  "author": "Bohort",
+  "license": "ISC",
+  "devDependencies": {
+    "wallpaper": "^7.0.0"
+  }
+}
